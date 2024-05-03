@@ -56,7 +56,7 @@ const navigate = useNavigate()
                     <li className="text-white text-xl mb-2 cursor-pointer" >Main</li>
                     <li className="text-white text-xl mb-2 cursor-pointer" onClick={() => navigate("/contato")}>Contatos</li>
                     <li className="text-white text-xl mb-2 cursor-pointer" onClick={() => navigate("/projeto")}>Projects</li>
-                    <li className="text-white text-xl mb-2 cursor-pointer">Team</li>
+                    <li className="text-white text-xl mb-2 cursor-pointer" onClick={() => navigate("/teams")}>Team</li>
                 </ul>
             </div>
             ):(
